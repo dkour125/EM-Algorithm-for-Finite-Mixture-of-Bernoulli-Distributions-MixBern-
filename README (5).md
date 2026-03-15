@@ -1,4 +1,4 @@
-# CS5016: Uncertainty in AI — Mixture of Bernoulli Models & EM Algorithm
+# Uncertainty in AI — Mixture of Bernoulli Models & EM Algorithm
 
 [![Python 3.7+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -8,7 +8,7 @@ A comprehensive implementation of the **Expectation-Maximization (EM) algorithm*
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 This assignment implements and analyzes a complete pipeline for unsupervised learning with mixture models:
 
@@ -20,16 +20,16 @@ This assignment implements and analyzes a complete pipeline for unsupervised lea
 
 ### Key Contributions
 
-✨ **Complete EM Implementation**  
+ **Complete EM Implementation**  
 Fully functional Expectation-Maximization algorithm with numerical stability via log-space computation and responsibility matrix handling.
 
-🔍 **Theoretical Foundation**  
+ **Theoretical Foundation**  
 Mathematical derivations for E-step, M-step, surrogate functions, and posterior predictive distributions.
 
-⚙️ **Multiple Optimizers**  
+ **Multiple Optimizers**  
 Implements and compares vanilla GD, SGD, Momentum-based GD, and Adam optimizer with hyperparameter tuning.
 
-📊 **Empirical Evaluation**  
+ **Empirical Evaluation**  
 Convergence analysis, hyperparameter grids, and comparative benchmarks on synthetic and real MNIST data.
 
 🎨 **Advanced Applications**  
@@ -37,7 +37,7 @@ Image generation from latent clusters and missing data imputation using posterio
 
 ---
 
-## 📐 Mathematical Foundations
+##  Mathematical Foundations
 
 ### Mixture of Bernoulli Distributions
 
@@ -65,7 +65,7 @@ The key advantage: **interpretability**. Each learned cluster center represents 
 
 ---
 
-## 🔄 Expectation-Maximization Algorithm
+##  Expectation-Maximization Algorithm
 
 ### Algorithm Flow
 
@@ -101,7 +101,7 @@ ln Σ_k e^a_k = c + ln Σ_k e^(a_k - c), where c = max_k a_k
 
 ---
 
-## 💻 Implementation Details
+##  Implementation Details
 
 ### Core Functions
 
@@ -149,7 +149,7 @@ This guarantees valid parameter ranges without constrained optimization.
 
 ---
 
-## 📈 Experiments & Results
+##  Experiments & Results
 
 ### Experiment 1: Simulated Data (K=3 Clusters)
 
@@ -228,7 +228,7 @@ p(x_H = 1 | x_O) = Σ_k μ_k,H · p(z=k|x_O)
 
 ---
 
-## 📊 Live Visualization Dashboard
+##  Live Visualization Dashboard
 
 Here's an interactive visualization showing key results from the analysis:
 
@@ -430,7 +430,7 @@ Here's an interactive visualization showing key results from the analysis:
 
 ---
 
-## 🎯 Key Learnings & Insights
+##  Key Learnings & Insights
 
 ### 1. Probabilistic Generative Modeling
 - **What we learned**: Built models that generate observations and handle missing data
@@ -465,18 +465,7 @@ Here's an interactive visualization showing key results from the analysis:
 
 ---
 
-## 🚀 Quick Start
 
-### Installation
-
-```bash
-# Clone repository
-git clone <repo_url>
-cd CS5016-MixBern
-
-# Install dependencies
-pip install numpy scipy scikit-learn matplotlib pandas jupyter
-```
 
 ### Usage
 
@@ -516,7 +505,7 @@ X_imputed = np.array([posterior_predictive_impute(x, πs, μs) for x in X_masked
 
 ---
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 After completing this assignment, you will understand:
 
