@@ -32,7 +32,7 @@ Implements and compares vanilla GD, SGD, Momentum-based GD, and Adam optimizer w
  **Empirical Evaluation**  
 Convergence analysis, hyperparameter grids, and comparative benchmarks on synthetic and real MNIST data.
 
-🎨 **Advanced Applications**  
+ **Advanced Applications**  
 Image generation from latent clusters and missing data imputation using posterior predictive distributions.
 
 ---
@@ -518,7 +518,7 @@ After completing this assignment, you will understand:
 
 ---
 
-## 📋 Results Summary Table
+##  Results Summary Table
 
 ### Simulated Data (K=3, n=500)
 
@@ -536,7 +536,6 @@ After completing this assignment, you will understand:
 This project is provided for educational purposes under the MIT License.
 
 ---
-
-**Last Updated**: December 2024  
+ 
 **Status**: ✅ Complete & Tested  
 **Python Version**: 3.8+
